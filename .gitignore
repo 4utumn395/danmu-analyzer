@@ -1,0 +1,50 @@
+# Swift Build Artifacts
+.build/
+*.xcodeproj
+*.playground
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Build Products
+dist/
+*.app
+
+# Temporary files
+*.tmp
+*.temp
+error.txt
+
+# Development Tools
+*.backup
+*.icns.backup
+
+# Scripts and Development Files
+*.sh
+Makefile
+App.swift
+optimized_parser.swift
+
+# IDE/Editor Files
+.vscode/
+.idea/
+
+# Documentation that changes frequently
+OPTIMIZATION_SUMMARY.md
+
+# macOS Specific
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Swift Package Manager
+Package.resolved
+.swiftpm/

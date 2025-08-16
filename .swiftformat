@@ -1,0 +1,48 @@
+# SwiftFormat 配置文件
+
+# 缩进
+--indent 4
+--tabwidth 4
+--smarttabs enabled
+
+# 换行
+--maxwidth 120
+--wraparguments before-first
+--wrapparameters before-first
+--wrapcollections before-first
+
+# 空格
+--trimwhitespace always
+--insertlines enabled
+--removelines enabled
+
+# 大括号位置
+--allman false
+--wrapconditions before-first
+
+# 分号
+--semicolons never
+
+# 导入排序
+--importgrouping alpha
+
+# 闭包参数
+--closingparen balanced
+
+# 排除目录
+--exclude .build,dist,Pods,vendor
+
+# 启用规则
+--enable isEmpty
+--enable sortedImports
+--enable duplicateImports
+--enable unusedArguments
+--enable blankLinesAtStartOfScope
+--enable blankLinesAtEndOfScope
+--enable redundantParens
+--enable redundantReturn
+--enable redundantSelf
+--enable strongifiedSelf
+--enable trailingCommas
+--enable wrap
+--enable wrapArguments
